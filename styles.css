@@ -38,7 +38,13 @@ li{
 
 .btn li{
     padding-left: 50px;
+    cursor: pointer;
 }
+.btn li:hover{
+    color: #FE7361;
+    font-weight: 600;
+}
+
 .icons{
     display: flex;
     width: 200px;
@@ -121,4 +127,138 @@ li{
     background-color: #FE7361;
     color: white;
 }
+.togbtn button:hover{
+    background-color: #FE7361;
+    color: white;
+}
+.categories{
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+}
+.card{
+    position: relative;
+    width: 340px;
+}
+.card img{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
 
+.text1{
+text-align: center;
+margin: 10px;
+margin-left: 30px;
+}
+.second button{
+    width: 60px;
+    height: 22px;
+    background-color: #FE7361;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-right:66px;
+}
+
+.cat{
+    margin-top: 70px;
+}
+.center{
+    text-align: center;
+}
+.center p{
+    font-size: 20px;
+}
+.center h3{
+    font-size: 25px;
+}
+
+.gridit{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+#one{
+grid-column: 1/2;
+height: 300px;
+background-image: url(images/one.jpg);
+background-size: cover;
+border-radius: 20px;
+}
+
+#two{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-image: url(images/two.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+#three{
+    grid-column: 1/2;
+    background-image: url(images/three.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 20px;    
+}
+
+.flexit{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carrd{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(192, 192, 192, 0.427);
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.texxt{
+    background-color: whitesmoke;
+   height: 70px;
+   padding: 10px;
+}
+.texxt p{
+    padding-top: 6px;
+}
+.star{
+    display: flex;
+}
+.star p{
+    margin-right: 120px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAF3EA;
+}
+.foot div{
+    margin: 30px;
+}
+
+.icons3{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 140px;
+}
+
+.rendu p{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.moonu{
+    display: flex;
+    flex-direction: column;
+}
+.moonu a{
+    padding: 10px;
+}
