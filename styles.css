@@ -48,6 +48,7 @@ li{
 .icons{
     display: flex;
     width: 200px;
+    cursor: pointer;
     justify-content: space-evenly;
 }
 
@@ -261,4 +262,32 @@ a{
 }
 .moonu a{
     padding: 10px;
+}
+.foot p{
+    cursor: pointer;
+}
+@media screen and (width<=320px) {
+    .icons{
+        display: none;
+    }
+    .carrd{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (width<=426px) {
+    .icons{
+        display: none;
+    }
+    .carrd{
+        margin-right: 100px;
+    }
+}
+@media screen and (width<=768px) {
+    .icons{
+        display: none;
+    }
+    .carrd{
+        margin-right: 120px;
+    }
 }
