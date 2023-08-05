@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: aquamarine;
+}
+section, footer{
+    margin: 30px;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto;
+}
+nav{
+margin: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.btn{
+    display: flex;
+    min-width: 300px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn li{
+    padding-left: 50px;
+}
+.icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.hero{
+    display: flex;
+    margin: 30px;
+    background-image: url(images/Rectangle\ 1.jpg);
+    justify-content: space-between;
+    height: 450px;
+}
+
+.side-text{
+    margin-top: 20vh;
+    margin-left: 20vh;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+.side-text p{
+    font-size: 17px;
+}
+.text h1{
+    font-size: 114px;
+}
+.side-text button{
+    margin-top: 20vh;
+    width: 210px;
+    height: 60px;
+    background-color: #FE7361;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#lok{
+    font-size: 18px;
+}
+.poster{
+    display: flex;
+}
+
+.collection{
+    margin: auto;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.collection p ,h3{
+    padding: 10px;
+}
+
+.collection h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.togbtn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+    width: 700px;
+}
+.togbtn button{
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.112);
+    height: 50px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#active{
+    background-color: #FE7361;
+    color: white;
+}
+
